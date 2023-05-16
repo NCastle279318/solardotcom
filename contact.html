@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+    <title>SolarDotCom - Contact Us</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-custom navbar-expand-sm navbar-light">
+        <!-- Navbar brand -->
+        <div class="container" id="brand-container">
+            <a href="index.html" class="navbar-brand">
+                <div><img src="pictures/solardotcom-logo.jpg" id="brand"></div>
+            </a>
+        </div>
+        <!-- Navbar menu button for mobile screens -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar items -->
+        <!-- "class=collapse" lists navbar items horizontally -->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <!-- Items -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <p class="nav-link-custom">HOME</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <p class="nav-link-custom">ABOUT</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">
+                        <p class="nav-link-custom">GALLERY</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <p class="nav-link-custom">CONTACT</p>
+                    </a>
+                </li>
+            </ul>
+            <!-- Items -->
+        </div>
+        <!-- Navbar Items -->
+    </nav>
+
+    <img src="pictures/contact-bar.png" id="contacts-bar">
+
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <img src="pictures/contact01.png" class="contact-items" id="citem1">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="pictures/contact02.png" class="contact-items" id="citem2">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="pictures/contact03.png" class="contact-items" id="citem3">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="pictures/contact04.png" class="contact-items" id="citem4">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Navbar -->
+
+    <!-- Content -->
+
+    <div id="headings-contact">
+        <span>Contact Us</span>
+    </div>
+    <div class="containers-contact">
+        <table>
+            <tr>
+                <td>
+                    <div class="contact-form">
+                        <form id="contact-form" action="https://formsubmit.co/solardotcomct@gmail.com" method="POST">
+                            <input type="hidden" name="_template" value="box">
+                            <input type="hidden" name="_subject" value="New Quote Request!">
+                            <input type="hidden" name="_next" value="https://solardotcom.co.za/thanks.html">
+                            <label class="contact-label" for="name">Full Name:</label><br>
+                            <input class="form-control2" type="text" name="name" placeholder="Name & Surname" required>
+                            <label class="contact-label" for="contact">Contact:</label><br>
+                            <input class="form-control2" type="text" name="contact" placeholder="Contact Number">
+                            <label class="contact-label" for="email">Email:</label><br>
+                            <input class="form-control2" type="email" name="email" placeholder="Email Address">
+                            <label class="contact-label" for="message">Message:</label><br>
+                            <textarea name="message" class="form-control" id="contact-textarea"
+                                placeholder="Type your message here"></textarea><br>
+                            <input type="submit" class="form-control2" id="submit-btn-contact" value="Send">
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <div class="contact-img-container">
+                        <img src="pictures/about-img.jpg" id="contact-img" width="500" height="auto">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="containers-contact" id="containers-contact-note">
+        <div id="contacts-para-container">
+            <div id="contacts-para01-container">
+                <strong><span id="note-para01">Kindly note:</span><br></strong>
+            </div>
+            <div id="contacts-para02-container"><span id="note-para02">When contacting us please specify the
+                    services required, be it sales, installations, or maintenance.</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Content -->
+
+    <!-- Footer -->
+
+    <div id="footer-background1">
+        <footer class="page-footer pt-2" id="footer-custom">
+            <div>
+                <table class="containers-footer">
+                    <tr>
+                        <td>
+                            <div id="containers-footer01">
+                                <h5 class="text-uppercase headings-footer">Company</h5>
+                                <hr class="mb-2 mt-0 d-inline-block mx-auto" id="hr-1">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="about.html">
+                                            <h1 class="nav-link-footercustom1">About Us</h1>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">
+                                            <h1 class="nav-link-footercustom1">Contact Us</h1>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h5 class="text-uppercase headings-footer">Quick Links</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="index.html">
+                                            <h1 class="nav-link-footercustom1">Home</h1>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="gallery.html">
+                                            <h1 class="nav-link-footercustom1">Gallery</h1>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="containers-footer" id="containers-footer02">
+                                <h5 class="text-uppercase headings-footer">Contact Us</h5>
+                                <hr class="mb-2 mt-0 d-inline-block mx-auto" id="hr-3">
+                                <p>
+                                    <i class="fas fa-phone icon icon-custom"></i>
+                                    <h1 class="nav-link-footercustom2"> 021 391 6620</h1>
+                                </p>
+                                <p>
+                                    <i class="fab fa-whatsapp icon-custom"></i>
+                                    <h1 class="nav-link-footercustom2"> 074 216 8840</h1>
+                                </p>
+                                <p>
+                                    <i class="fas fa-mobile-alt icon-custom"></i>
+                                    <h1 class="nav-link-footercustom2"> 067 191 3252</h1>
+                                </p>
+                                <p>
+                                    <i class="far fa-envelope icon-custom"></i>
+                                    <h1 class="nav-link-footercustom2">SOLARDOTCOMCT@GMAIL.COM</h1>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Footer -->
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js "
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous ">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous ">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ " crossorigin="anonymous ">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/0000000000.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
